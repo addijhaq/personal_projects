@@ -1,0 +1,37 @@
+.promo-video{
+  position: relative;
+
+  #overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 745px;
+    width:100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#26699e+0,283b5a+100&0.7+0,0.7+100 */
+    background: -moz-linear-gradient(top,  rgba(38,105,158,0.7) 0%, rgba(40,59,90,0.7) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(38,105,158,0.7) 0%,rgba(40,59,90,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(38,105,158,0.7) 0%,rgba(40,59,90,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b326699e', endColorstr='#b3283b5a',GradientType=0 ); /* IE6-9 */
+  }
+  .header-content{
+    background-color: transparent;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+  }
+  .headliner{
+    left:0;
+    top:50%;
+    position: absolute;
+    width:100%;
+    transform: translate-Y(-50%);
+
+    h1{
+      border-top:2px solid #fff;
+      border-bottom:2px solid #fff;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+}
